@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 75% 25%;
+}
+
+.display {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    background-color: teal;
+    border: 2px black solid;
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+    transform: rotateZ(0deg);
+    font-size: 30px;
+    padding: 10px;
+}
+.controlPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2 / 3;
+    height: 100%;
+    background-color: #363636;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
